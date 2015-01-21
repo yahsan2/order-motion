@@ -1,0 +1,80 @@
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0;">
+
+<style type="text/css" media="screen">
+  html, body { margin: 0; padding: 0; height: 100%; }
+  h1 { position: fixed; top: 0; margin: 0; padding: 20px 0; width: 100%; text-align: center; background: #fff; font-family: Times New Roman; z-index: 1; }
+  footer { position: fixed; bottom: 0; padding: 20px 0; width: 100%; text-align: center; background: #fff; z-index: 1; }
+  footer small{ font-size: .9em; display: block; font-family: Times New Roman; text-align: center; color: #666; }
+  footer small a{ text-decoration: none; font-weight: bold; color: #666; }
+</style>
+
+<style type="text/css" media="screen">
+  ul { padding: 100px 0 0; margin: 0 auto; width: 960px; text-align: center; }
+  li { opacity: 0; transition: all .25s; list-style: none; margin: 20px; font-size: 64px; display: inline-block;}
+  li.is-active { opacity: 1; }
+</style>
+<header>
+  <h1>OrderMotion</h1>
+</header>
+
+<main>
+  <ul>
+    <li data-order="0">0</li>
+    <li data-order="1">1</li>
+    <li data-order="2">2</li>
+    <li data-order="3">3</li>
+    <li data-order="4">4</li>
+    <li data-order="5">5</li>
+    <li data-order="6">6</li>
+    <li data-order="7">7</li>
+    <li data-order="8">8</li>
+    <li data-order="9">9</li>
+    <li data-order="10">10</li>
+    <li data-order="11">11</li>
+    <li data-order="12">12</li>
+    <li data-order="13">13</li>
+    <li data-order="14">14</li>
+    <li data-order="15">15</li>
+    <li data-order="16">16</li>
+    <li data-order="12">12</li>
+    <li data-order="13">13</li>
+    <li data-order="14">14</li>
+    <li data-order="19">19</li>
+    <li data-order="13">13</li>
+    <li data-order="16">16</li>
+    <li data-order="13">13</li>
+    <li data-order="15">15</li>
+    <li data-order="19">19</li>
+    <li data-order="18">18</li>
+    <li data-order="19">19</li>
+    <li data-order="17">17</li>
+    <li data-order="18">18</li>
+    <li data-order="19">19</li>
+    <li data-order="20">20</li>
+    <li data-order="17">17</li>
+    <li data-order="18">18</li>
+    <li data-order="19">19</li>
+    <li data-order="20">20</li>
+    <li data-order="17">17</li>
+    <li data-order="17">17</li>
+    <li data-order="20">20</li>
+    <li data-order="19">19</li>
+    <li data-order="20">20</li>
+    <li data-order="18">18</li>
+    <li data-order="19">19</li>
+  </ul>
+</main>
+
+<footer>
+  <small>by <a href="https://github.com/yahsan2" target="_blank">ryosuke miyamoto</a> / <a href="https://github.com/yahsan2/lazy-motion">github</a></small>
+</footer>
+
+<script src="vendor/js/jquery.min.js"></script>
+<script src="src/js/script.js"></script>
+<script type="text/javascript" charset="utf-8">
+  setTimeout(function(){
+    var orderMotion = new OrderMotion({
+      interval: 300
+    });
+  }, 1000);
+</script>
