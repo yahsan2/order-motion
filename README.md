@@ -8,5 +8,5 @@ Add classes by scroll position
 
 ```js
 var orderMotion = new orderMotion({
-  scollEvent: true
+  interval: 300
 });
