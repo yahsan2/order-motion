@@ -1,6 +1,6 @@
 # order-motion
 
-Add classes by scroll position
+Add classes in specified order
 
 [Demo]
 
